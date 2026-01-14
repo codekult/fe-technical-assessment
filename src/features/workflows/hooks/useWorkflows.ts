@@ -21,6 +21,11 @@ export function useWorkflows() {
       try {
         const execution = await airopsRef.current.apps.execute({
           appId: AIROPS_APP_ID,
+          payload: {
+            inputs: {
+              count: 36,
+            },
+          },
         });
 
         executionRef.current = execution;
