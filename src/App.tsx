@@ -17,7 +17,7 @@ export default function App() {
       <AppLayout.Sidebar>
         <UserBox username={USERNAME} />
         <Link to="/workflows/create">
-          <Button>
+          <Button fullWidth>
             <TextIcon value="+" /> New
           </Button>
         </Link>
