@@ -18,7 +18,7 @@ cp .env.example .env
 
 Edit `.env` with your configuration. See `.env.example` for required fields.
 
-### 5. Start the app
+### 3. Start the app
 
 ```bash
 npm run dev
